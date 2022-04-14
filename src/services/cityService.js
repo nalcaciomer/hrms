@@ -18,6 +18,6 @@ export default class CityService {
   }
 
   getCitiesByDesc() {
-    return axios.get("http://localhost:8080/api/cities/getallbynameasc");
+    return axios.get("http://localhost:8080/api/cities/getallbynamedesc");
   }
 }
